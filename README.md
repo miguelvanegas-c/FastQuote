@@ -2,8 +2,6 @@
 
 FastQuote es un proyecto orientado a **generar y gestionar cotizaciones (“quotes”)** de forma rápida, clara y reutilizable. Este repositorio reúne el código, configuración y documentación necesaria para correr el proyecto localmente, entender su estructura y contribuir.
 
-> Si este proyecto corresponde a un reto, entrega o prueba técnica, aquí queda documentado el alcance, decisiones y forma de ejecución.
-
 ---
 
 ## Tabla de contenido
