@@ -266,4 +266,5 @@ Si aún no se ha elegido, puedes dejar “Pendiente”.
 ## Autor
 
 - **Miguel Vanegas**
-- GitHub: https://github.com/miguelvanegas-c
+- **Diego Rozo**
+- **Cristian Silva** 
