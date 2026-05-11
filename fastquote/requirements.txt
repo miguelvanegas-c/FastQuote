@@ -6,3 +6,7 @@ scikit-learn
 pandas
 numpy
 joblib
+PyJWT
+passlib[bcrypt]
+python-multipart
+email-validator
