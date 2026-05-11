@@ -265,6 +265,7 @@ Si aún no se ha elegido, puedes dejar “Pendiente”.
 
 ## Autor
 
+- **Cristian Silva**
 - **Miguel Vanegas**
 - **Diego Rozo**
-- **Cristian Silva** 
+   
