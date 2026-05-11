@@ -1,0 +1,22 @@
+# =========================
+# fastquote
+# =========================
+fastquote/.env
+fastquote/.venv/
+fastquote/__pycache__/
+
+# =========================
+# fastquoteFront
+# =========================
+fastquoteFront/.env
+fastquoteFront/node_modules/
+
+# =========================
+# rag-server
+# =========================
+rag-server/.env
+rag-server/.venv/
+
+# Ignorar carpetas app y scripts dentro de rag-server
+rag-server/app/
+rag-server/scripts/

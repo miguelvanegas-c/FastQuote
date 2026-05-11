@@ -1,0 +1,57 @@
+### Crear producto
+POST http://127.0.0.1:8000/productos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Nike Air Max 270",
+  "precio": 129,
+  "stock": 0,
+  "talla": 39
+}
+
+###
+
+### Listar productos
+GET http://127.0.0.1:8000/productos
+Accept: application/json
+
+###
+
+### Obtener producto por ID
+GET http://127.0.0.1:8000/productos/691e2e1f1ef85de7670d38c6
+Accept: application/json
+
+###
+
+### Actualizar producto
+PUT http://127.0.0.1:8000/productos/691e2e1f1ef85de7670d38c6
+Content-Type: application/json
+Accept: application/json
+
+
+
+###
+
+### Eliminar producto
+DELETE http://127.0.0.1:8000/productos/691e2e1f1ef85de7670d38c6
+Accept: application/json
+
+###
+
+### Entrenar modelo para un producto específico
+POST http://127.0.0.1:8000/predict/train/691e2e1f1ef85de7670d38c6
+Accept: application/json
+
+###
+
+### Predicción para un producto (requiere modelo entrenado)
+GET http://127.0.0.1:8000/predict/predict/691e2e1f1ef85de7670d38c6?days=7&lead_time_days=7
+Accept: application/json
+
+###
+
+### Predicción automática de los 3 productos más cotizados (auto-entrena)
+POST http://127.0.0.1:8000/predict/top-three
+Accept: application/json
+

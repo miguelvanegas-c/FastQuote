@@ -1,0 +1,11 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+python-dotenv==1.0.1
+pydantic-settings==2.6.1
+supabase==2.15.0
+google-genai==1.10.0
+pypdf==5.1.0
+pdfplumber==0.11.4
+langchain-text-splitters==0.3.2
+httpx>=0.28.1
